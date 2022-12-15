@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.RegistrationBox{
+    background-color: #f0cf16;
+    border-radius: 15px;
+}
+.RegistrationBox img{
+    width: min-content;
+    width: 70px;
+    margin: 10px;  
+}
+.RegistrationBox .text{
+    font-size: 24px;
+    font-family: 'Bungee';
+    position: relative;
+    top: 16px;
+}
+.container{
+    background-color: #f0cf16;
+}
+.container form{
+    background-color: #f0cf16;
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    position: relative;
+    left: 3%;
+}
+
+.Frame input{
+    width: 90%;
+    margin-left:3%;
+    margin-right:3%;
+    font-size: 18px;
+    margin-top: 5px;
+    border-style:solid 1px black;
+    padding: 6px;
+    border-radius: 9px;
+}
+.Frame input #TAC{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 70%;
+    position: relative;
+    margin-top: 6px;
+    right: 7%;
+}
+.button-container button{
+    font-size: 18px;
+    padding:3px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}

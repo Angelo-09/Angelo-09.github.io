@@ -1,0 +1,30 @@
+[{
+    "productName":"Dark Choco Kit-Kat",
+    "image":"imgResources/BobbaBrew/BobbaBrew-103.png",
+    "price":110
+},
+{
+    "productName":"Matcha",
+    "image":"imgResources/BobbaBrew/BobbaBrew-107.png",
+    "price":130
+},
+{
+    "productName":"Oreo Cheese Cake",
+    "image":"imgResources/BobbaBrew/BobbaBrew-101.png",
+    "price":120
+},{
+    "productName":"Dark Choco Kit-Kat",
+    "image":"imgResources/BobbaBrew/BobbaBrew-103.png",
+    "price":110
+},
+{
+    "productName":"Matcha",
+    "image":"imgResources/BobbaBrew/BobbaBrew-107.png",
+    "price":130
+},
+{
+    "productName":"Oreo Cheese Cake",
+    "image":"imgResources/BobbaBrew/BobbaBrew-101.png",
+    "price":120
+}
+]

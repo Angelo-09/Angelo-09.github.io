@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    background-color:#f0cf16;
+    display:grid;
+    grid-auto-flow: column;
+    padding: 10px;
+    align-items: center;
+}
+.Header #HeaderLogo{
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    width: min-content;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.HeaderRight{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+h2{display:inline;
+    padding-left:10px;
+    font-family: 'Bungee';
+    align-items: center;}
+p{
+    padding-right: 10px;
+    display: flex;
+    padding-left: 5%;
+    font-family: 'Bungee';
+    cursor: pointer;
+    align-items: center;
+}
+
+#Login{
+    padding-right: 2%;
+}
+.Body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+/*This is the product advertisement preview*/
+.ProductAd{
+    color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#prev{
+    background-color:#bbbfb4;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    left: 11.5%;
+    border-radius: 50%;
+    border-style: none;
+}
+#next{
+    background-color:#bbbfb4;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    right:11.5%;
+    border-radius: 50%;
+    border-style: none;
+}
+/*This is the product advertisement preview*/
+#ProductAd{
+    border-radius: 10px;
+    display: grid;
+    background-color: #f0cf16;
+    width:min-content;
+    width: 100%;
+}
+
+.Footer{
+    background-color: #f0cf16;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/*for the  login pop-up*/
+
+
+/* carousel */
+.container{
+    display:flex;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.buttons-nav{
+    display: flex;
+    margin-top: 150px;
+}
+input#button-left{
+    background-color:#bbbfb4;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    left: 11.5%;
+    border-radius: 50%;
+    border-style: none;
+}
+input#button-right{
+    background-color:#bbbfb4;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    right: 11.5%;
+    border-radius: 50%;
+    border-style: none;
+}
+.image-frame{
+    padding:15px;
+    margin:7px;
+    display:block;
+    flex-direction:column;
+    width:max-content;
+    background-color: turquoise;
+    border-radius: 15px;
+    
+}
+.image-frame img{
+    width:min-content;
+    width: 240px;
+}
+.image-frame button{
+    justify-items:center;
+    padding: 5px;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    font-family: 'Bungee';
+    font-size: 18px;
+    border-style: none;
+}
+.image-frame p{
+    font-size:14px;
+}
+

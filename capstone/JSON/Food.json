@@ -1,0 +1,38 @@
+[
+    {
+        "productName":"Nacho Overload",
+        "image":"imgResources/BobbaBrew/BobbaBrew-217.png",
+        "price":90
+    },
+    {
+        "productName":"Quesadilla",
+        "image":"imgResources/BobbaBrew/BobbaBrew-222.png",
+        "price":75
+    },
+    {
+        "productName":"Chicken Wings",
+        "image":"imgResources/BobbaBrew/BobbaBrew-221.png",
+        "price":70
+    },
+    {
+        "productName":"Quesadilla",
+        "image":"imgResources/BobbaBrew/BobbaBrew-222.png",
+        "price":75
+    },
+    {
+        "productName":"Chicken Wings",
+        "image":"imgResources/BobbaBrew/BobbaBrew-221.png",
+        "price":70
+    },
+    {
+        "productName":"Quesadilla",
+        "image":"imgResources/BobbaBrew/BobbaBrew-222.png",
+        "price":75
+    },
+    {
+        "productName":"Chicken Wings",
+        "image":"imgResources/BobbaBrew/BobbaBrew-221.png",
+        "price":70
+    }
+    
+]

@@ -1,0 +1,125 @@
+body{
+    background-color: #f0cf16;
+}
+.border-container{
+    display:grid;
+    background-color: white;
+    margin-bottom: 25px;
+    border: 2px black solid;
+    width: fit-content;
+    width: 90%;
+}
+
+.logo img{
+    width: fit-content;
+    width: 120px;
+}
+
+.logo p{
+    font-size:14px;
+}
+.top-content-left p{
+    display: inline;
+    font-size: 36px;
+    position: relative;
+    bottom: 40px;
+}
+.filler1{
+    background: linear-gradient(
+            to right,
+            #f0cf16 0%,
+            #f0cf16 70%,
+            white 70%,
+            white 75%,
+            black 75%,
+            black 100%
+        );
+    width: 455px;
+    height: 62px;
+    border-top-right-radius:  15px;
+    border-bottom-right-radius: 15px;
+
+}
+/*
+.orders-bottom-header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.image-frame{
+    display:flex;
+    height: 140px;
+    width:100px ;
+
+}
+.image-frame img{
+    height: fit-content;
+    height: 100%;
+    border-radius: 15px;
+}
+*/
+.table-container{
+display:flex;
+flex-direction: column;
+}
+.table-header th{
+    display: flex;
+    font-family: 'Bungee';
+}
+table{
+margin-top: 25px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 45px;
+}
+th {
+  text-align: center;
+  background:#f0cf16;
+  font-family: 'Bungee';
+  color: black;
+}
+td {
+  height: 5px;
+  vertical-align: center;
+}
+td img{
+    width: fit-content;
+    width: 200px;
+}
+th, td {
+  padding:10px 10px;
+  text-align: left;
+}
+.table-container tr:nth-child(2n+0){
+  background:#f0cf16;
+  color:black;
+}
+.table-container td:nth-child(1n+5){
+    background:white;
+    color:black;
+  }
+.table-container tr:nth-child(2n+1){
+  background:black;
+  color:white;
+}
+.border-container button{
+    font-size: 24px;
+    font-family: 'Bungee';
+}
+td button{
+padding: 3px;
+height: max-content;
+width:max-content;
+height: 100%;
+width: 100%;
+border-radius: 7px;
+background-color: white;
+}
+.bottom-content #Submit-payment{
+    background-color:gray;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 70%;
+    margin-left: 10%;
+    width: 20%;
+}

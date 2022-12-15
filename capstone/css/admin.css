@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header{
+    background-color:#f0cf16;
+    display:grid;
+    grid-auto-flow: column;
+    padding: 10px;
+    align-items: center;
+}
+.HeaderRight{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}

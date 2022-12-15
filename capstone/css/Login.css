@@ -1,0 +1,72 @@
+.loginPopup{
+    background-color:#f0cf16;
+    border-radius:15px;
+    padding:20px;
+}
+.popup-content.form{
+    padding: 20px;
+    display:grid;  
+}
+.form-element input{
+    width:min-content;
+    width: 100%;
+}
+.other-login button{
+    position: relative;
+    border-radius: 50%;
+    background-color: black;
+}
+.form .form-element input[type="text"],
+.form .form-element input[type="password"]{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.form-element button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form-element p{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+.form .other-login{
+    margin-top: 5px;
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+.other-login button img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: black;
+    border: none;
+}
+input #remember-me{
+    margin-top: 15px;
+}
+
